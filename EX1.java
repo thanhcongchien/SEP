@@ -9,14 +9,16 @@ public class EX1 {
 		int a,b;
 		
 		Scanner sc = new Scanner(System.in);
+		
 		do {
-			System.out.println("enter 2 numbers");
+			System.out.println("Input 2 numbers");
 			System.out.print("inut a = ");
 			 a = sc.nextInt();
 			System.out.print("input b = ");
 			 b = sc.nextInt();
+			if(
 			System.out.print("please enter again!!!");
-			
+				}
 		}while(a==b);
 		
 		if(a<b) {
