@@ -22,7 +22,7 @@ public class EX2 {
 	    	System.out.print("element " + i + ": ");
 	    	arr[i] = sc.nextInt();
 		if(arr[i] <=0) {
-	    		System.out.println("Please enter number > 0,you will have to enter again if number <= 0!!!");
+	    		System.out.println("Please enter number > 0 !!! ");
 	    				}
 	    		}while(arr[i] <= 0);
 	    	}
