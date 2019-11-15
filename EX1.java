@@ -17,7 +17,7 @@ public class EX1 {
 			 a = sc.nextInt();
 			System.out.print("input b = ");
 			 b = sc.nextInt();
-			if(
+			if(a == b){
 			System.out.print("please enter again!!!");
 				}
 		}while(a==b);
