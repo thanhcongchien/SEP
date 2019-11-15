@@ -16,12 +16,14 @@ public class EX2 {
 	    } while (n < 0);
 	         // khoir tao va cap phat bo nho cho mang
 				int[] arr =  new int[n];
-		System.out.println("Please enter number > 0,you will have to enter again if number <= 0!!!");
 	   
 	    		for  ( i = 0; i < n; i++) {
 	    			do {
 	    				System.out.print("element " + i + ": ");
 	    				arr[i] = sc.nextInt();
+					if(arr[i] <=0) {
+	    				System.out.println("Please enter number > 0,you will have to enter again if number <= 0!!!");
+	    				}
 	    			}while(arr[i] <= 0);
 	    		}
 	    	
