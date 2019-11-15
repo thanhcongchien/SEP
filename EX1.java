@@ -10,6 +10,7 @@ public class EX1 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		// nhap hai so a va b 
 		do {
 			System.out.println("Input 2 numbers");
 			System.out.print("inut a = ");
@@ -21,6 +22,7 @@ public class EX1 {
 				}
 		}while(a==b);
 		
+			//tinh tong tua den b
 		if(a<b) {
 			for(int i = a ; i <= b; i++) {
 				sum+=i;
